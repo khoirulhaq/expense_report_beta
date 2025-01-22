@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h1 class="mt-4">{{ expense.id|default_if_none:"Tambah" }} Pengeluaran</h1>
+    <form method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit" class="btn btn-success">Simpan</button>
+        <a href="{% url 'expense_list' %}" class="btn btn-secondary">Batal</a>
+    </form>
+{% endblock %}

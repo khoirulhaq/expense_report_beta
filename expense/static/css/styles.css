@@ -1,0 +1,86 @@
+/* General body styles */
+body {
+    background-color: #0a0e1a; /* Dark navy background */
+    color: #f8f9fa; /* Light text color */
+}
+
+/* Navbar styling */
+.navbar {
+    background-color: #0d1b2a; /* Dark blue background */
+    border-bottom: 2px solid #1b263b; /* A slightly lighter blue border */
+}
+
+/* Card styling */
+.card {
+    background-color: #1b263b; /* Dark blue card background */
+    border: none; /* No border */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+}
+
+/* Button styling */
+.btn {
+    background-color: #0d47a1; /* Vibrant blue */
+    color: white; /* White text */
+    border: none; /* No border */
+}
+
+.btn:hover {
+    background-color: #1565c0; /* Lighter blue on hover */
+}
+
+/* Table styling */
+.table {
+    background-color: #1b263b; /* Dark blue background */
+    color: #f8f9fa; /* White text for table */
+}
+
+/* Header styling */
+.table th {
+    border-color: #2e3d55; /* Border color with a subtle blue shade */
+    color: #ffffff; /* White text color for headers */
+    font-weight: bold; /* Bold text for headers */
+    padding: 12px; /* Add padding for headers */
+}
+
+/* Cell styling */
+.table td {
+    border-color: #2e3d55; /* Border color with a subtle blue shade */
+    font-weight: normal; /* Normal font weight */
+    font-size: 1rem; /* Set font size for clarity */
+    padding: 12px; /* Add padding for better spacing */
+}
+
+/* Styling for odd rows */
+.table tbody tr:nth-child(odd) td {
+    color: #00ffcc; /* Set font color for odd rows */
+}
+
+/* Styling for even rows */
+.table tbody tr:nth-child(even) td {
+    color: #ffffff; /* Set font color for even rows */
+}
+
+/* Remove alternate row colors */
+.table tbody tr {
+    background-color: #1b263b; /* All rows have the same background color */
+}
+
+/* Optional: Add hover effect for rows */
+.table tbody tr:hover {
+    background-color: #0d47a1; /* Highlight color on hover */
+}
+
+/* Futuristic font and styling for headings */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Orbitron', sans-serif; /* A futuristic font */
+    color: #64ffda; /* Bright turquoise */
+}
+
+/* Link styling */
+a {
+    color: #64ffda; /* Bright turquoise link color */
+}
+
+a:hover {
+    color: #21c1a7; /* Slightly darker on hover */
+}
